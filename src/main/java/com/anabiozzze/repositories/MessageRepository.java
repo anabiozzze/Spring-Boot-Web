@@ -5,8 +5,7 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-
-// Интерфейс будет автоматически реализован Spring в bean-компонент
+// Интерфейс для общих операций CRUD в хранилище для типа данных Message
 public interface MessageRepository extends CrudRepository<Message, Integer> {
     List<Message> findByTag(String tag);
 }

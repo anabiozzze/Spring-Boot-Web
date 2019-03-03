@@ -9,7 +9,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 // т.е. может искать бины в этом классе, конфигурации в пакете (контроллер, например), настраивает DispatcherServlet
 @SpringBootApplication
 public class Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
